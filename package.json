@@ -3,8 +3,12 @@
     "version": "1.0.0",
     "description": "batch to download someone's favorited video",
     "main": "index.js",
+    "engines": {
+        "node": ">10"
+    },
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "build": "tsc",
+        "download": "node dist/main.js"
     },
     "repository": {
         "type": "git",
