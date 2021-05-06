@@ -1,25 +1,27 @@
 {
-    "name": "twitter-like-video-downloader",
+    "name": "twitter-favorite-videos-downloader",
     "version": "1.0.0",
-    "description": "batch to download someone's liked video",
+    "description": "batch to download someone's favorited video",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/zkd8907/twitter-like-video-downloader.git"
+        "url": "git+https://github.com/zkd8907/twitter-favorite-videos-downloader.git"
     },
     "author": "zkd8907",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/zkd8907/twitter-like-video-downloader/issues"
+        "url": "https://github.com/zkd8907/twitter-favorite-videos-downloader/issues"
     },
-    "homepage": "https://github.com/zkd8907/twitter-like-video-downloader#readme",
+    "homepage": "https://github.com/zkd8907/twitter-favorite-videos-downloader#readme",
     "dependencies": {
+        "download": "^8.0.0",
         "twitter": "^1.7.1"
     },
     "devDependencies": {
+        "@types/node": "^15.0.2",
         "@typescript-eslint/eslint-plugin": "^4.22.1",
         "@typescript-eslint/parser": "^4.22.1",
         "eslint": "^7.25.0",
